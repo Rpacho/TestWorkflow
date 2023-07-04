@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Rpacho/TestWorkflow/compare/v1.0.2...v1.1.0) (2023-07-04)
+
+
+### Features
+
+* added skin swap ([a57ea4e](https://github.com/Rpacho/TestWorkflow/commit/a57ea4e5a51434efe32b647e27abb8a97048ba0e))
+
 ## [1.0.2](https://github.com/Rpacho/TestWorkflow/compare/v1.0.1...v1.0.2) (2023-07-04)
 
 
