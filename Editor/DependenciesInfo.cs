@@ -1,8 +1,5 @@
 using UnityEngine;
-//fix
-//fix 2
-//fix 3
-//fix 4
+// change second digit
 namespace UGM.Editor
 {
     public struct DependenciesInfo
