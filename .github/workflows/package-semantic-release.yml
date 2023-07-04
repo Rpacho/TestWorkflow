@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - master
+    - upm
 jobs:
   release:
     name: release
