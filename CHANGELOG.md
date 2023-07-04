@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Rpacho/TestWorkflow/compare/v1.1.0...v1.1.1) (2023-07-04)
+
+
+### Performance Improvements
+
+* ayo ([43c96f1](https://github.com/Rpacho/TestWorkflow/commit/43c96f18b355058212220ec2f10641f3ae764d09))
+
 # [1.1.0](https://github.com/Rpacho/TestWorkflow/compare/v1.0.2...v1.1.0) (2023-07-04)
 
 
