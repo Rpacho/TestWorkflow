@@ -44,7 +44,7 @@ jobs:
         id: semver-update-master
         with:
           semver-update-type: 'patch' # Change this string to any suitable string mentioned in the Inputs section of this action's readme to suit your needs.
-          upm-package-directory: '/Assets/BigfootDS/BigfootUnityUtilities/'
+          upm-package-directory: '/Packages/com.nftygames.ugm/'
 
       # Validate that the number has been incremented correctly.
       - name: Get the new semver number
