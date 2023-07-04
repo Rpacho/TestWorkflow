@@ -1,0 +1,39 @@
+name: Update UPM Branch
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  split-upm:
+    name: update upm branch
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: update upm branch
+      run: |
+        echo '### head info'
+        git log -1
+
+        echo '### split upm branch'
+        git subtree split -P "$PKG_ROOT" -b UPM
+        
+        echo '### Checkout ####'
+        cd $PKG_ROOT
+        git merge UPM
+      env:
+        PKG_ROOT: Packages\com.nftygames.ugm
+
+    - name: commit and push
+      run: |
+
+        git config --global user.name "git-bot"
+        git config --global user.email "git-bot@ugm.com"
+        git add .
+        git commit -m 'fix update upm'
+
+        echo '### update remote upm branch'
+        git push origin UPM
