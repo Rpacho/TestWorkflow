@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Rpacho/TestWorkflow/compare/v1.1.1...v1.1.2) (2023-07-04)
+
+
+### Performance Improvements
+
+* deleted ([ae82e57](https://github.com/Rpacho/TestWorkflow/commit/ae82e572ca830e5e6645f565dacf178bceab784e))
+
 ## [1.1.1](https://github.com/Rpacho/TestWorkflow/compare/v1.1.0...v1.1.1) (2023-07-04)
 
 
