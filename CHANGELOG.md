@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Rpacho/TestWorkflow/compare/v1.0.1...v1.0.2) (2023-07-04)
+
+
+### Bug Fixes
+
+* bb ([20a82a3](https://github.com/Rpacho/TestWorkflow/commit/20a82a39530ad0ae8a312652eae6b20048768aa5))
+
 ## [1.0.1](https://github.com/Rpacho/TestWorkflow/compare/v1.0.0...v1.0.1) (2023-07-04)
 
 
