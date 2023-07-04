@@ -2,6 +2,7 @@ using UnityEngine;
 //fix
 //fix 2
 //fix 3
+//fix 4
 namespace UGM.Editor
 {
     public struct DependenciesInfo
